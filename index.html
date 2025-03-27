@@ -11,20 +11,39 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <div class="container header-container">
-            <div class="logo">Pope Maksym</div>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#skills" class="nav-link">Skills</a></li>
-                    <li><a href="#experience" class="nav-link">Experience</a></li>
-                    <li><a href="#projects" class="nav-link">Projects</a></li>
-                    <li><a href="#education" class="nav-link">Education</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="mobile-menu-btn">☰</button>
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <a href="/" class="logo">Pope<span class="highlight">Dev</span></a>
+                <nav class="nav-desktop">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    
+                    <!-- Social Media Icons -->
+                    <div class="header-social-links">
+                        <a href="https://linkedin.com/in/benedict-ahura" class="header-social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="header-social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:popeahura@gmail.com" class="header-social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    
+                    <button id="theme-toggle" class="btn-icon">
+                        <i data-lucide="moon" class="icon theme-icon"></i>
+                    </button>
+                </nav>
+                <button class="menu-toggle" id="menu-toggle">
+                    <i data-lucide="menu" class="icon menu-icon"></i>
+                </button>
+            </div>
         </div>
         <div class="mobile-menu">
             <div class="container">
@@ -35,6 +54,18 @@
                     <li><a href="#projects" class="nav-link">Projects</a></li>
                     <li><a href="#education" class="nav-link">Education</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <!-- Mobile Social Links -->
+                    <li class="mobile-social-container">
+                        <a href="https://linkedin.com/in/benedict-ahura" class="mobile-social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="mobile-social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:popeahura@gmail.com" class="mobile-social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
